@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { increment } from '../redux/action/counter.action';
 
 function Counter(props) {
-
+    
     const dispatch = useDispatch();
 
     const handeleincree = () => {
